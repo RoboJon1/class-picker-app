@@ -1,0 +1,303 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.containerdiv { float: center; position: relative; } 
+.cornerimage { position: absolute; top: 15vh; left: 44vw }
+
+body {
+  background-color: #eae8e8;
+}
+
+.collapsible {
+  background-color: #ff6666;
+  color: #ffffff;
+  cursor: pointer;
+  padding: 3px;
+  width: 100%;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 15px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.collapsible:hover {
+  background-color: #ebebeb;
+}
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: #ff000d;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #d1000a;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+.btn {
+  background-color: #11ff00;
+  color: white;
+  padding: 10px;
+  width: 49%;
+  font-size: 24px;
+  border: none;
+  cursor: pointer;
+}
+
+.btnS {
+  background-color: #11ff00;
+  color: white;
+  padding: 10px;
+  font-size: 24px;
+  border: none;
+  cursor: pointer;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+}
+
+.btn2 {
+  background-color: #ff0000;
+  color: white;
+  padding: 10px;
+  width: 49%;
+  font-size: 24px;
+  border: none;
+  cursor: pointer;
+}
+
+.colorKeyGreen {
+  background-color: white;
+  color: black;
+  width: 200px;
+  height: 20px;
+  border: 3px solid green;
+  text-align: center;
+}
+
+.colorKeyYellow {
+  background-color: white;
+  color: black;
+  width: 200px;
+  height: 20px;
+  border: 3px solid yellow;
+  text-align: center;
+}
+
+.colorKeyRed {
+  background-color: white;
+  color: black;
+  width: 200px;
+  height: 20px;
+  border: 3px solid red;
+  text-align: center;
+}
+
+.colorKeyOrange {
+  background-color: white;
+  color: black;
+  width: 200px;
+  height: 20px;
+  border: 3px solid orange;
+  text-align: center;
+}
+
+.action_btn {
+width: 200px;
+margin: 0 auto;
+display: inline;}
+
+.btn:hover, .btn:focus {
+  background-color: #00b30c;
+}
+.btn2:hover, .btn2:focus {
+  background-color: #d40202;
+}
+
+/* The search field */
+#myInput {
+  box-sizing: border-box;
+  background-image: url('searchicon.png');
+  background-position: 14px 12px;
+  background-repeat: no-repeat;
+  font-size: 16px;
+  padding: 14px 20px 12px 45px;
+  border: none;
+  border-bottom: 1px solid #ddd;
+}
+
+/* The search field when it gets focus/clicked on */
+#myInput:focus {outline: 3px solid #ddd;}
+
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
+  overflow-y: scroll;
+  padding-top: 50px;
+  padding-bottom: 45px;
+}
+.containerKey {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-y: scroll;
+  margin-top: -30px;
+  margin-bottom: 30px;
+  border: 1px solid black;
+  height: 40px;
+  width: 1090px;
+}
+.left-container {
+  background-color: #eae8e8;
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+  align-items: center;
+  border: 1px solid black;
+  width: 200px;
+  height: 420px;
+  /*overflow: scroll;*/
+  margin: 0 20px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.right-container {
+  background-color: #eae8e8;
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+  align-items: center;
+  border: 1px solid black;
+  width: 200px;
+  height: 450px;
+  margin: 0 20px;
+  overflow-y: scroll;
+}
+
+.filterBox{
+  display: block;
+  flex-direction: column;
+  justify-content: top;
+  align-items: center;
+  border: 1px solid black;
+  width: 200px;
+  height: 70000000px;
+  margin: 0 20px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.box1 {
+  width: 150px;
+  height: 50px;
+  min-height: 50px;
+  border: 1px solid black;
+}
+
+.box3{
+  width: 150px;
+  height: 40px;
+  min-height: 30px;
+  border: 1px solid black;
+}
+
+.box2, .box4 {
+  width: 150px;
+  height: 50px;
+  border: 1px solid black;
+}
+
+.box1, .box2, .box3, .box4{
+  /*background-color: #f2f7fd;*/
+  background-color: #FFFFFF;
+  border-radius: 2px;
+  text-align: center;
+  margin: 6px;
+  cursor: move;
+}
+
+.box1.over, .box2.over {
+  border: 3px dotted #666;
+}
+
+.boxed {
+  border: 1px solid white ;
+  width: 180px;
+}
+
+/* boxes for the dropdown boxes */
+
+.headertext {
+  font-size: 18px;
+  color: white;
+}
+
+.headertext2 {
+  font-size: 36px;
+  color: white;
+  background-color: #f01313;
+}
+
+.headerDiv {
+  background-color: #f01313;
+  width: 200px;
+  height: 45px;
+}
+
+.big-container {
+  background-color: #eae8e8;
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+  align-items: center;
+  border: 1px solid black;
+  width: 200px;
+  height: 500px;
+  margin: 0 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}

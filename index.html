@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <Link href="style.css" rel="stylesheet" type="text/css"/>
+  <script src="dragCode.js"></script>
+  <script src="DropdownScript.js"></script>
+  <script src="script.js"></script>
+  <script src="importClasses.js"></script>
+  <script src="collapse.js"></script>
+  <base href="https://niles-west-class-picker-app.jonlou1.repl.co">
+  
+</head>
+  
+<header>
+<center><h1 class = "headertext2"><bold>Niles West Class Picker</bold></h1></center>
+  <body onload = "listLoad(); fillClassBox('freshmanClasses'); fillClassBox('sophomoreClasses'); fillClassBox('juniorClasses'); fillClassBox('seniorClasses')">
+  </body>
+</header>
+  
+
+
+<center>
+  <div class="container">
+  <div class = "big-container" id="freshmanClassesContainer">
+  <div class = "headerDiv">
+  <h1 class = "headertext">Freshman Classes</h1>
+  </div>
+  <div class="left-container" id="freshmanClasses">
+  </div>
+    <div class = "action_btn">
+      <button class = "btn2", onclick="removeBox()">-</button>
+      <button class = "btn", onclick="addBox('freshmanClasses')">+</button>
+    
+    </div>
+  </div>
+
+  <div class = "big-container" id="sophomoreClassesContainer">
+  <div class = "headerDiv">
+  <h1 class = "headertext">Sophomore Classes</h1>
+  </div>
+  <div class="left-container" id="sophomoreClasses">
+  </div>
+  <div class = "action_btn">
+    <button class = "btn2", onclick="removeBox2()">-</button>
+    <button class = "btn", onclick="addBox('sophomoreClasses')">+</button>
+  </div>
+  </div>
+    
+  <div class = "big-container" id="juniorClassesContainer">
+  <div class = "headerDiv">
+  <h1 class = "headertext">Junior Classes</h1>
+  </div>
+  <div class="left-container" id="juniorClasses">
+  </div>
+  <div class = "action_btn">
+    <button class = "btn2", onclick="removeBox3()">-</button>
+    <button class = "btn", onclick="addBox('juniorClasses')">+</button>
+    
+  </div>
+  </div>
+
+  <div class = "big-container" id="seniorClassesContainer">
+  <div class = "headerDiv">
+  <h1 class = "headertext">Senior Classes</h1>
+  </div>
+  <div class="left-container" id="seniorClasses">
+  </div>
+  <div class = "action_btn">
+    <button class = "btn2", onclick="removeBox4()">-</button>
+    <button class = "btn", onclick="addBox('seniorClasses')">+</button>
+  </div>
+  </div>
+
+  <div class = "big-container" id="pickClassesContainer">
+	  <div class = "headerDiv">
+  	<h1 class = "headertext">Classes List</h1>
+  </div>
+
+	  
+	  <button type="button" class="collapsible">Show/Hide Filters</button>
+    
+    <div class="filterBox" id="filterBox">
+	  
+	<h1>Filters</h1>
+<form name="filterForm1">
+	<input type="checkbox" id = "englishButton1" tag = "English"></input>
+	<label for="englishButton1">English</label><br>
+	<input type="checkbox" id = "mathButton1" tag = "Math"></input>
+	<label for="mathButton1">Math</label><br>
+	<input type="checkbox" id = "languageButton1" tag = "Language"></input>
+	<label for="languageButton1">Language</label><br>
+	<input type="checkbox" id = "peButton1" tag = "Physical Education"></input>`
+	<label for="peButton1">Physical Education</label><br>
+	<input type="checkbox" id = "itButton1" tag = "Information Technology"></input>
+	<label for="itButton1">IT Classes</label><br>
+	<input type="checkbox" id = "scienceButton1" tag = "Science"></input>
+	<label for="scienceButton1">Science</label><br>
+	<input type="checkbox" id = "socialScienceButton1" tag = "Social Science"></input>
+	<label for="socialScienceButton1">Social Studies</label><br>
+  <input type="checkbox" id = "readingButton1" tag = "Reading"></input>
+	<label for="readingButton1">Reading</label><br>
+  <input type="checkbox" id = "musicButton1" tag = "Music"></input>
+	<label for="musicButton1">Music</label><br>
+  <input type="checkbox" id = "engineeringButton1" tag = "Engineering"></input>
+	<label for="engineeringButton1">Engineering</label><br>
+  <input type="checkbox" id = "businessButton1" tag = "Business"></input>
+	<label for="businessButton1">Business</label><br>
+  <input type="checkbox" id = "theatreButton1" tag = "Theatre"></input>
+	<label for="theatreButton1">Theatre</label><br>
+  <input type="checkbox" id = "foodButton1" tag = "Food"></input>
+	<label for="foodButton1">Food</label><br>
+  <input type="checkbox" id = "otherButton1" tag = "Other"></input>
+	<label for="otherButton1">Other</label><br>
+	</form>
+</div>
+
+   <div class="right-container" id="right-container2">
+  </div>
+  </div>
+  </div>
+
+  <div class = "containerKey">
+    <div class = colorKeyGreen>Most Reccomended</div>
+    &nbsp; &nbsp; &nbsp; &nbsp;
+    <div class = colorKeyYellow>More Reccomended</div>
+    &nbsp; &nbsp; &nbsp; &nbsp;
+    <div class = colorKeyOrange>Somewhat Reccomended</div>
+    &nbsp; &nbsp; &nbsp; &nbsp; 
+    <div class = colorKeyRed>Not Reccomended</div>
+  </div>
+  
+</center>
+
+<body>
+  <center>
+    <button type="button" onClick="save()" class="btnS">Submit</button>
+  </center>
+</body>
+</html>

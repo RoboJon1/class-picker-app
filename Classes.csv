@@ -1,0 +1,330 @@
+Class,Type,Difficulty,Following Class
+Stu Art AP,Art,3,None
+AP 3 D Design,Art,3,None
+Adv Stu Art,Art,2,Stu Art AP
+Adv 2 D Design,Art,2,AP 2 D Design
+AP 2 D Design,Art,3,None
+Paint/Draw,Art,1,Adv Stu Art
+Ceramics II,Art,1,AP 3 D Design
+Ind St ART,Art,1,None
+Graphic Design 1,Art,1,Digital Photo 2=Adv 2 D Design
+Digital Photo 2,Art,1,Graphic Design 1=Adv 2 D Design
+AVID 09,Other,1,AVID 10
+AVID 10,Other,1,AVID 11
+AVID 11,Other,1,None
+Comm Access 1,Other,1,None
+Fin Coll Acct,Business,1,Man Coll Acct
+Man Coll Acct,Business,1,Ent & Bus Strat
+Ent & Bus Strat,Business,1,Business Incubator
+Business Incubator,Business,1,None
+Voc Aware 1 2,Business,1,Voc Aware 3 4
+Voc Aware 3 4,Business,1,Voc Aware 5 6
+Voc Aware 5 6,Business,1,Voc Aware 7 8
+Voc Aware 7 8,Business,1,None
+Bus Tech 2,Business,1,None
+Cons Ed,Business,1,None
+Investing,Business,1,Marketing
+Marketing,Business,1,Investing
+EL Bus Topics 2,Business,1,None
+Case Mgr,Other,1,None
+CVE Work St,Other,1,CVE OTJ
+CVE OTJ,Other,1,None
+Work Study 1 2,Other,1,Work Study 3 4
+On The Job 1 2,Other,1,On The Job 3 4
+Work Study 3 4,Other,1,None
+On The Job 3 4,Other,1,None
+Dr Ed Btw,Other,1,Dr Ed Clrm
+Dr Ed Clrm,Other,1,None
+Acting,Theatre,1,Stagecraft=Adv Theatre Studio
+Arts Appreciation,Theatre,1,None
+Play Production,Theatre,2,Directing
+Adv Theatre Studio,Theatre,2,Directing=Play Production
+Directing,Theatre,2,Play Production
+Stagecraft,Theatre,1,Acting=Adv Theatre Studio
+Theatre Workshp,Theatre,1,Stagecraft=Acting
+Yearbook Prod Honors,English,2,None
+Fr Eng 12 22,English,1,So English=So Eng 32 42R
+Fr Eng 12 22/Rd,English,1,So English=So Eng 32 42R
+H. News Prod,English,2,None
+GAW Eng Lang AP,English,3,H Col Prp Soc Jus/Equ=Col Prp H. Lit Peace/NonV=Asian American Lit Hon=Col Prp H. Lit Sprt/Am Cul=Col Prp H. Women/Gender=Col Prp H. World Lit=H. Sr English=H. Bible Myth=H. News Prod=Brdcast Prod=Yearbook Prod Honors+Sr English=Col Prp Soc Jus/Equ=Asian American Lit=Images Lit=Public Speaking=Col Prp Lit Peace/NonV=Col Prp Lit Sprt/Am Cul=Col Prp Women/Gender=Col Prp World Lit=Creative Writing=Digital Storytelling=Col Prep 1
+AM LT COMP,English,3,H Col Prp Soc Jus/Equ=Col Prp H. Lit Peace/NonV=Asian American Lit Hon=Col Prp H. Lit Sprt/Am Cul=Col Prp H. Women/Gender=Col Prp H. World Lit=H. Sr English=H. Bible Myth=H. News Prod=Brdcast Prod=Yearbook Prod Honors+Sr English=Col Prp Soc Jus/Equ=Asian American Lit=Images Lit=Public Speaking=Col Prp Lit Peace/NonV=Col Prp Lit Sprt/Am Cul=Col Prp Women/Gender=Col Prp World Lit=Creative Writing=Digital Storytelling=Col Prep 1
+ALCUSH ALC,English,1,H Col Prp Soc Jus/Equ=Col Prp H. Lit Peace/NonV=Asian American Lit Hon=Col Prp H. Lit Sprt/Am Cul=Col Prp H. Women/Gender=Col Prp H. World Lit=H. Sr English=H. Bible Myth=H. News Prod=Brdcast Prod=Yearbook Prod HonorsSr English=Col Prp Soc Jus/Equ=Asian American Lit=Images Lit=Public Speaking=Col Prp Lit Peace/NonV=Col Prp Lit Sprt/Am Cul=Col Prp Women/Gender=Col Prp World Lit=Creative Writing=Digital Storytelling=Col Prep 1=
+ALC Honors,English,2,H Col Prp Soc Jus/Equ=Col Prp H. Lit Peace/NonV=Asian American Lit Hon=Col Prp H. Lit Sprt/Am Cul=Col Prp H. Women/Gender=Col Prp H. World Lit=H. Sr English=H. Bible Myth=H. News Prod=Brdcast Prod=Yearbook Prod Honors+Sr English=Col Prp Soc Jus/Equ=Asian American Lit=Images Lit=Public Speaking=Col Prp Lit Peace/NonV=Col Prp Lit Sprt/Am Cul=Col Prp Women/Gender=Col Prp World Lit=Creative Writing=Digital Storytelling=Col Prep 1
+ALCUSH ALC Honors,English,2,H Col Prp Soc Jus/Equ=Col Prp H. Lit Peace/NonV=Asian American Lit Hon=Col Prp H. Lit Sprt/Am Cul=Col Prp H. Women/Gender=Col Prp H. World Lit=H. Sr English=H. Bible Myth=H. News Prod=Brdcast Prod=Yearbook Prod Honors+Sr English=Col Prp Soc Jus/Equ=Asian American Lit=Images Lit=Public Speaking=Col Prp Lit Peace/NonV=Col Prp Lit Sprt/Am Cul=Col Prp Women/Gender=Col Prp World Lit=Creative Writing=Digital Storytelling=Col Prep 1
+English Lit AP,English,3,None
+So Eng 32 42R,English,1,ALCUSH ALC=ALC Honors=ALCUSH ALC Honors=GAW Eng Lang AP=H. News Prod
+Honors Broadcast,English,2,None
+Fr English,English,1,So English=So Eng 32 42R
+So English,English,1,ALCUSH ALC=ALC Honors=ALCUSH ALC Honors=GAW Eng Lang AP=H. News Prod
+Jr Am Lt & Comp,English,3,H Col Prp Soc Jus/Equ=Col Prp H. Lit Peace/NonV=Asian American Lit Hon=Col Prp H. Lit Sprt/Am Cul=Col Prp H. Women/Gender=Col Prp H. World Lit=H. Sr English=H. Bible Myth=H. News Prod=Brdcast Prod=Yearbook Prod Honors+Sr English=Sr English=Sr English=Sr English=Col Prp Soc Jus/Equ=Asian American Lit=Images Lit=Public Speaking=Col Prp Lit Peace/NonV=Col Prp Lit Sprt/Am Cul=Col Prp Women/Gender=Col Prp World Lit=Creative Writing=Digital Storytelling=Col Prep 1
+Sr English,English,1,None
+Intr EL Vocab,English,1,EL 1 Literature
+EL 1 Literature,English,1,EL 2 Literature
+EL 2 Literature,English,1,EL 3 Literature
+EL 3 Literature,English,1,EL Am Lit/Cmp
+EL Am Lit/Cmp,English,1,None
+Freshman Literature,English,1,Sophomore Literature+So English=So Eng 32 42R
+Sophomore Literature,English,1,AM LT COMP=JR AM LT/CP 5 6=Jr Am Lt & Comp
+Col Prp Soc Jus/Equ,English,1,None
+H Col Prp Soc Jus/Equ,English,2,None
+Fr English,English,1,So English=So Eng 32 42R
+So English,English,1,ALCUSH ALC=ALC Honors=ALCUSH ALC Honors=GAW Eng Lang AP=H. News Prod
+JR AM LT/CP 5 6,English,1,H Col Prp Soc Jus/Equ=Col Prp H. Lit Peace/NonV=Asian American Lit Hon=Col Prp H. Lit Sprt/Am Cul=Col Prp H. Women/Gender=Col Prp H. World Lit=H. Sr English=H. Bible Myth=H. News Prod=Brdcast Prod=Yearbook Prod HonorsSr English=Col Prp Soc Jus/Equ=Asian American Lit=Images Lit=Public Speaking=Col Prp Lit Peace/NonV=Col Prp Lit Sprt/Am Cul=Col Prp Women/Gender=Col Prp World Lit=Creative Writing=Digital Storytelling=Col Prep 1=
+Asian American Lit,English,1,None
+Asian American Lit Hon,English,2,None
+Images Lit,English,1,None
+Public Speaking,English,1,None
+Col Prp Lit Peace/NonV,English,1,None
+Col Prp H. Lit Peace/NonV,English,2,None
+Col Prp Lit Sprt/Am Cul,English,1,None
+Col Prp H. Lit Sprt/Am Cul,English,2,None
+Col Prp Women/Gender,English,1,None
+Col Prp H. Women/Gender,English,2,None
+Col Prp World Lit,English,1,None
+Col Prp H. World Lit,English,2,None
+Creative Writing,English,1,None
+Digital Storytelling,English,1,None
+H. Sr English,English,2,None
+H. Bible Myth,English,2,None
+Col Prep H,English,2,None
+Col Prep 1,English,1,None
+Brdcast Prod,English,2,None
+Fr English,English,1,So English=So Eng 32 42R
+Soph Eng,English,1,ALCUSH ALC=ALC Honors=ALCUSH ALC Honors=GAW Eng Lang AP=H. News Prod
+Jr Am Lt / Cp,English,1,H Col Prp Soc Jus/Equ=Col Prp H. Lit Peace/NonV=Asian American Lit Hon=Col Prp H. Lit Sprt/Am Cul=Col Prp H. Women/Gender=Col Prp H. World Lit=H. Sr English=H. Bible Myth=H. News Prod=Brdcast Prod=Yearbook Prod HonorsSr English=Col Prp Soc Jus/Equ=Asian American Lit=Images Lit=Public Speaking=Col Prp Lit Peace/NonV=Col Prp Lit Sprt/Am Cul=Col Prp Women/Gender=Col Prp World Lit=Creative Writing=Digital Storytelling=Col Prep 1=
+EL Resource,English,1,EL 1 Grammar
+Intr EL Gram,English,1,EL 1 Grammar
+L Intr EL Gram L,English,1,EL 1 Grammar
+EL 1 Grammar,English,1,EL 2 Grammar
+EL 2 Grammar,English,1,EL 3 Grammar
+EL 3 Grammar,English,1,None
+Auto Fund,Engineering,1,Auto Sys/Srv/Dia=Auto Sys/Srv/Dia
+Auto Sys/Srv/Dia,Engineering,2,None
+Auto Sys/Srv/Dia,Engineering,2,None
+POE PLTW,Engineering,3,Welding & Metal Fabrication=CIM PLTW=DE PLTW=CEA PLTW
+IED PLTW,Engineering,3,POE PLTW
+DE PLTW,Engineering,3,Welding & Metal Fabrication=CIM PLTW=CEA PLTW
+CIM PLTW,Engineering,3,Welding & Metal Fabrication=DE PLTW=CEA PLTW
+CEA PLTW,Engineering,3,Welding & Metal Fabrication=CIM PLTW=DE PLTW
+Welding & Metal Fabrication,Engineering,1,Advanced Welding
+Advanced Welding,Engineering,2,None
+MakerStudio,Engineering,1,IED PLTW
+Com Food Wks,Food,1,G & I Cuisine=Chefs Course=Chefs Topics=Meals&Ent
+Early Childhood Education Lvl1,Food,1,Early Childhood Education Lvl2
+Early Childhood Education Lvl2,Food,2,None
+Chefs Course,Food,1,None
+G & I Cuisine,Food,1,None
+Fashion 2,Other,1,Ind St FCS
+Fashion Studio,Other,1,Fashion 2
+Ind St FCS,Other,1,None
+Chefs Topics,Food,1,None
+Meals&Ent,Food,1,None
+Advance App Development,Information Technology,2,Advance App Development+CyberSecurity=ICS PLTW
+AP CSP PLTW,Information Technology,3,AP Comp Sci A+CyberSecurity
+AP Comp Sci A,Information Technology,3,Advance App Development+CyberSecurity
+ICS PLTW,Information Technology,1,None
+CyberSecurity,Information Technology,1,None
+Chinese 1,Language,1,Chinese 2=Chinese 2 Hon
+Chinese 2,Language,1,Chinese 3+Chinese 3 Hon
+Chinese 2 Hon,Language,2,Chinese 3 Hon+Chinese 3
+Chinese 3,Language,1,Chinese 4+Chinese 4 Hon
+Chinese 3 Hon,Language,2,Chinese 4 Hon+Chinese 4
+Chinese 4,Language,1,None
+Chinese 4 Hon,Language,2,None
+French 1,Language,1,French 2+French 2 Hon
+French 1 Hon,Language,2,French 2 Hon+French 2
+French 2,Language,1,French 3+French 3 Hon
+French 2 Hon,Language,2,French 3 Hon+French 3
+French 3,Language,1,French 4+French 3 Hon
+French 3 Hon,Language,2,French 4 Hon+French 4
+French 4,Language,1,French AP
+French 4 Hon,Language,2,French AP
+French AP,Language,3,None
+German 1,Language,1,German 2+German 2 Hon
+German 1 Hon,Language,2,German 2 Hon+German 2
+German 2,Language,1,German 3+German 3 Hon
+German 2 Hon,Language,2,German 3 Hon+German 3
+German 3,Language,1,German 4+German 4 Hon
+German 3 Hon,Language,2,German 4 Hon+German 4
+German 4,Language,1,German AP
+German 4 Hon,Language,2,German AP
+German AP,Language,3,None
+Hebrew 3 Hon,Language,2,Hebrew 4 Hon
+Hebrew 4 Hon,Language,2,None
+Intr Spanish 1,Language,1,Spanish 1
+Spanish 1,Language,1,Intr Spanish 2=Spanish 2
+Intr Spanish 2,Language,1,Spanish 2=Spanish 2 Hon
+Spanish 2,Language,1,Spanish 3+Spanish 3 Hon
+Spanish 2 Hon,Language,2,Spanish 3 Hon+Spanish 3
+Spanish 3,Language,1,Spanish 4+Spanish 4 Hon
+Spanish 3 Hon,Language,2,Spanish 4 Hon+Spanish 4
+Spanish 4,Language,1,Spanish Conv=Adv Span Tpcs=Spanish AP=Spanish AP Lit
+Spanish 4 Hon,Language,2,Spanish Conv=Adv Span Tpcs=Spanish AP=Spanish AP Lit
+Spanish Conv,Language,3,Adv Span Tpcs=Spanish AP=Spanish AP Lit
+Adv Span Tpcs,Language,3,Spanish Conv=Spanish AP=Spanish AP Lit
+Spanish AP,Language,3,Spanish Conv=Adv Span Tpcs=Spanish AP Lit
+Spanish for Heritage Speakers,Language,3,Span HerSpk1 Hon
+Span HerSpk1 Hon,Language,2,Spanish Conv=Adv Span Tpcs=Spanish AP=Spanish AP Lit
+Spanish AP Lit,Language,3,None
+Algebra Essentials,Math,1,Alg 1=E Alg 1 Ext
+Alg 1,Math,1,Geom=Geom Hon=Geom Adv
+E Alg 1 Ext,Math,1,Geom+Geom Hon+Geom Adv
+Alg 2 Adv,Math,2,Precalculus Advanced+Precalculus Honors+Precalculus
+Alg 2 Hon,Math,2,Precalculus Honors+Precalculus Advanced+Precalculus
+Alg 2,Math,1,Precalculus+Precalculus Advanced+Precalculus Honors
+E Alg 2 Ext,Math,1,Precalculus+Precalculus Advanced+Precalculus Honors
+Intermediate Algebra,Math,1,Geom=Geom Hon=Geom Adv
+Geom,Math,1,Alg 2+Alg 2 Hon=Alg 2 Adv
+E Geom Ext,Math,1,Alg 2+Alg 2 Hon+Alg 2 Adv
+Geom Hon,Math,2,Alg 2 Hon+Alg 2 Adv+Alg 2
+Geom Adv,Math,2,Alg 2 Hon+Alg 2 Adv+Alg 2
+Precalculus,Math,1,Calculus+Calc AB AP=Calc BC AP
+Precalculus Honors,Math,2,Calc AB AP=Calc BC AP+Calculus
+Calculus,Math,1,Calc AB AP=Calc BC AP=Prob & Stats+Stats AP
+Calc AB AP,Math,3,Calc BC AP=Stats AP+Prob & Stats
+Calc BC AP,Math,3,Post Calculus Topics+Stats AP+Prob & Stats
+Post Calculus Topics,Math,3,Stats AP
+Precalculus Advanced,Math,2,Calc AB AP=Calc BC AP+Calculus
+Prob & Stats,Math,1,None
+Stats AP,Math,3,Post Calculus Topics
+Math/Alg 1 2,Math,1,Math/Geom 3 4
+Math/Geom 3 4,Math,1,Math/Alg 5 6
+Math/Alg 5 6,Math,1,Applied Math 7 8
+Applied Math 7 8,Math,1,Math/Geom 9 10
+Math/Geom 9 10,Math,1,Alg 2+Alg 2 Hon=Alg 2 Adv
+EL ALG FUND,Math,1,EL Alg 1
+EL Alg 1,Math,1,EL Geometry
+EL Geometry,Math,1,EL Algebra 2
+EL Algebra 2,Math,1,Precalculus+Precalculus Advanced+Precalculus Honors
+Algebra 1 2,Math,1,Geometry 1 2
+Geometry 1 2,Math,1,Algebra 3 4
+Algebra 3 4,Math,1,Geom 2
+Geom 2,Math,1,Alg 2+Alg 2 Hon=Alg 2 Adv
+Concert Band,Music,1,Symph Band
+Symph Band,Music,1,Symphonic Winds
+Symphonic Winds,Music,1,Jazz Band EB
+Jazz Band EB,Music,2,None
+Adv Choir,Music,1,Chamber Choir
+Chamber Choir,Music,1,Concert Choir
+Concert Choir,Music,1,Choraliers
+Choraliers,Music,1,None
+Percussion Tech,Music,1,Conc Orch
+Conc Orch,Music,1,Symph Orch
+Symph Orch,Music,2,Phil Orch
+Phil Orch,Music,2,None
+Digital Piano 2,Music,1,None
+Guitar 2,Music,1,None
+Fr Phys Ed,Physical Education,1,Soph Health/Fitness
+PE Ldrs 2,Physical Education,1,None
+PE Ldrs 3,Physical Education,1,None
+Aerobics,Physical Education,1,None
+Sprts Fitness,Physical Education,1,None
+Soph Health/Fitness,Physical Education,1,PE Ldrs 2=PE Ldrs 3=Aerobics=Sprts Fitness=Integrated PE=Strength & Cond=Varsity Phys Ed=Vars Phys Ed=EL Health/Fitness=Adv Ed 2=PE Mdx=Dance 2=Phys Ed
+Integrated PE,Physical Education,1,None
+Strength & Cond,Physical Education,1,Strength & Cond
+Varsity Phys Ed,Physical Education,1,Varsity Phys Ed
+Vars Phys Ed,Physical Education,1,Vars Phys Ed
+EL Health/Fitness,Physical Education,1,None
+Adv Ed 2,Physical Education,1,None
+PE Mdx,Physical Education,1,None
+Dance 2,Physical Education,1,None
+Phys Ed,Physical Education,1,None
+Fr Phys Ed,Physical Education,1,Soph Health/Fitness
+Rdg Foundations 01,Reading,1,Rdg IntroToCompr 02
+Rdg IntroToCompr 02,Reading,1,Rdg Applications 03
+Rdg Applications 03,Reading,1,None
+Reading 1 2,Reading,1,Integ Read 3 4
+Integ Read 3 4,Reading,1,None
+Intr EL Read,Reading,1,EL Reading 1
+EL Reading 1,Reading,1,EL Reading 2
+EL Reading 2,Reading,1,None
+Freshman Reading,Reading,1,Sophomore Reading
+Sophomore Reading,Reading,1,None
+Reading 2,Reading,1,None
+Biology,Science,1,Chemistry+Chemistry AP=Chemistry Hon=Chemistry Ap EB=Chemistry Hon EB=Chemistry EB=Conceptual Chem 10 20
+Biology Hon,Science,2,Chemistry AP=Chemistry Hon=Chemistry Ap EB=Chemistry Hon EB=Chemistry EB=Conceptual Chem 10 20+Chemistry
+Biology AP,Science,3,Chemistry AP=Chemistry Hon=Chemistry Ap EB=Chemistry Hon EB=Chemistry EB=Conceptual Chem 10 20+Chemistry
+Conceptual Chem 10 20,Science,1,Physics 1 AP+Physics=Physics EB
+Chemistry,Science,1,Physics+Physics 1 AP=Physics EB=Physics 1 AP EB
+Chemistry Hon,Science,2,Physics 1 AP+Physics=Physics EB=Physics 1 AP EB
+Chemistry AP,Science,3,Physics 1 AP+Physics=Physics EB=Physics 1 AP EB
+Chemistry EB,Science,1,Physics 1 AP EB=Physics 1 AP=Physics=Physics EB
+Chemistry Hon EB,Science,2,Physics 1 AP EB+Physics EB+Physics 1 AP+Physics
+Chemistry AP EB,Science,3,Physics 1 AP EB+Physics EB+Physics 1 AP+Physics
+Expl Chem & Physics,Science,1,None
+Env Sci AP,Science,3,None
+Env Sci AP EB,Science,3,None
+Ind St SCI,Science,1,None
+Health Careers,Science,1,None
+Basic Nurse Asst Training EB,Science,1,None
+EB BNAT Career Readiness,Science,1,None
+Physics,Science,1,Physics C AP=Env Sci AP=Env Sci AP EB=Expl Chem & Physics=Ind St SCI=Health Careers=Basic Nurse Asst Training EB=EB BNAT Career Readiness=Astr Md Phys=An Phys III=Conceptual Phys 10 20=An Phys IV=An Phys IV EB=Sci Topics=STEM Inq/Res EB=STEM Inq/Res AS=Life Skills Sci 1 2=Phys Science=Forensics=Zoology=
+Astr Md Phys,Science,1,None
+Physics C AP,Science,3,None
+Physics 1 AP,Science,3,Physics C AP=Env Sci AP=Env Sci AP EB=Expl Chem & Physics=Ind St SCI=Health Careers=Basic Nurse Asst Training EB=EB BNAT Career Readiness=Astr Md Phys=An Phys III=Conceptual Phys 10 20=An Phys IV=An Phys IV EB=Sci Topics=STEM Inq/Res EB=STEM Inq/Res AS=Life Skills Sci 1 2=Phys Science=Forensics=Zoology=
+An Phys III,Science,3,None
+Conceptual Phys 10 20,Science,1,None
+An Phys IV,Science,3,None
+Physics EB,Science,1,Physics C AP=Env Sci AP=Env Sci AP EB=Expl Chem & Physics=Ind St SCI=Health Careers=Basic Nurse Asst Training EB=EB BNAT Career Readiness=Astr Md Phys=An Phys III=Conceptual Phys 10 20=An Phys IV=An Phys IV EB=Sci Topics=STEM Inq/Res EB=STEM Inq/Res AS=Life Skills Sci 1 2=Phys Science=Forensics=Zoology=
+Physics 1 AP EB,Science,3,Physics C AP=Env Sci AP=Env Sci AP EB=Expl Chem & Physics=Ind St SCI=Health Careers=Basic Nurse Asst Training EB=EB BNAT Career Readiness=Astr Md Phys=An Phys III=Conceptual Phys 10 20=An Phys IV=An Phys IV EB=Sci Topics=STEM Inq/Res EB=STEM Inq/Res AS=Life Skills Sci 1 2=Phys Science=Forensics=Zoology=
+An Phys IV EB,Science,3,None
+Sci Topics,Science,1,Sci Topics 2
+STEM Inq/Res EB,Science,1,None
+STEM Inq/Res AS,Science,1,None
+Life Skills Sci 1 2,Science,1,Life Skills Sci 3 4
+Life Skills Sci 3 4,Science,1,Life Skills Sci 5 6
+Life Skills Sci 5 6,Science,1,Life Skills Sci 7 8
+Life Skills Sci 7 8,Science,1,None
+EL Phys Sci,Science,1,Physics+Physics 1 AP=Physics EB=Physics 1 AP EB
+EL Bio 13 23,Science,1,EL Phys Sci
+Phys Science,Science,1,Phys Sci  2
+Forensics,Science,1,None
+Zoology,Science,1,None
+Sci Topics 2,Science,1,None
+Phys Sci  2,Science,1,None
+Debate,Social Science,1,Black and Latinx Studies+Asian American Studies=Law=Psychology=World Religions=Sociology=World War II=US Hist 2+Psychology AP=Eur His AP=AP Gov & Pol=Black and Latinx Studies Hon=Asian American Studies Hon=MacroEcon AP=Law Honors=Psychology Honors=World Religions Honors=Sociology Honors=World War II Honors+Intr Debate=EL Intro Soc
+Advanced Debate,Social Science,2,Physchology AP+Eur His AP=AP Gov & Pol=Black and Latinx Studies Hon=Asian American Studies Hon=MacroEcon AP=Law Honors=Psychology Honors=World Religions Honors=Sociology Honors=World War II Honors+Debate=Black and Latinx Studies=Asian American Studies=Law=Psychology=World Religions=Sociology=World War II=US Hist 2+Intr Debate=EL Intro Soc
+Eur His AP,Social Science,3,Advanced Debate=Psychology AP=AP Gov & Pol=Black and Latinx Studies Hon=Asian American Studies Hon=MacroEcon AP=Law Honors=Psychology Honors=World Religions Honors=Sociology Honors=World War II Honors+Debate=Black and Latinx Studies=Asian American Studies=Law=Psychology=World Religions=Sociology=World War II=US Hist 2+Intr Debate=EL Intro Soc
+Psychology AP,Social Science,3,Advanced Debate=Physchology AP=Eur His AP=AP Gov & Pol=Black and Latinx Studies Hon=Asian American Studies Hon=MacroEcon AP=Law Honors=Psychology Honors=World Religions Honors=Sociology Honors=World War II Honors+Debate=Black and Latinx Studies=Asian American Studies=Law=Psychology=World Religions=Sociology=World War II=US Hist 2+Intr Debate=EL Intro Soc
+AP Gov & Pol,Social Science,3,US Hist AP+ALCUSH USH Honors=US Hist Hon+US HIST=US History=ALCUSH USH+EL USH
+US HIST,Social Science,1,Debate=Black and Latinx Studies=Asian American Studies=Law=Psychology=World Religions=Sociology=World War II=US Hist 2+Psychology AP=Eur His AP=AP Gov & Pol=Black and Latinx Studies Hon=Asian American Studies Hon=MacroEcon AP=Law Honors=Psychology Honors=World Religions Honors=Sociology Honors=World War II Honors+Intr Debate=EL Intro Soc
+US Hist Hon,Social Science,2,Advanced Debate=Physchology AP=Eur His AP=AP Gov & Pol=Black and Latinx Studies Hon=Asian American Studies Hon=MacroEcon AP=Law Honors=Psychology Honors=World Religions Honors=Sociology Honors=World War II Honors+Debate=Black and Latinx Studies=Asian American Studies=Law=Psychology=World Religions=Sociology=World War II=US Hist 2+Intr Debate=EL Intro Soc
+US Hist AP,Social Science,3,Advanced Debate=Physchology AP=Eur His AP=AP Gov & Pol=Black and Latinx Studies Hon=Asian American Studies Hon=MacroEcon AP=Law Honors=Psychology Honors=World Religions Honors=Sociology Honors=World War II Honors+Debate=Black and Latinx Studies=Asian American Studies=Law=Psychology=World Religions=Sociology=World War II=US Hist 2+Intr Debate=EL Intro Soc
+ALCUSH USH,Social Science,1,Debate=Black and Latinx Studies=Asian American Studies=Law=Psychology=World Religions=Sociology=World War II=US Hist 2+Psychology AP=Eur His AP=AP Gov & Pol=Black and Latinx Studies Hon=Asian American Studies Hon=MacroEcon AP=Law Honors=Psychology Honors=World Religions Honors=Sociology Honors=World War II Honors+Intr Debate=EL Intro Soc
+ALCUSH USH Honors,Social Science,2,Advanced Debate=Physchology AP=Eur His AP=AP Gov & Pol=Black and Latinx Studies Hon=Asian American Studies Hon=MacroEcon AP=Law Honors=Psychology Honors=World Religions Honors=Sociology Honors=World War II Honors+Debate=Black and Latinx Studies=Asian American Studies=Law=Psychology=World Religions=Sociology=World War II=US Hist 2+Intr Debate=EL Intro Soc
+Comm Studies 1 2,Other,1,Comm Studies 3 4
+Comm Studies 3 4,Other,1,Comm Studies 5 6
+Comm Studies 5 6,Other,1,Comm Studies 7 8
+Comm Studies 7 8,Other,1,Comm Studies 9 10
+Comm Studies 9 10,Other,1,None
+Mod World Hist,Social Science,3,Civics=Psychology+Psychology Honors+AP Gov & Pol+EL Civics
+World Hist AP,Social Science,3,AP Gov & Pol+Psychology Honors+Psychology=Civics+EL Civics
+EL USH,Social Science,1,Debate=Black and Latinx Studies=Asian American Studies=Law=Psychology=World Religions=Sociology=World War II=US Hist 2+Psychology AP=Eur His AP=AP Gov & Pol=Black and Latinx Studies Hon=Asian American Studies Hon=MacroEcon AP=Law Honors=Psychology Honors=World Religions Honors=Sociology Honors=World War II Honors+Intr Debate=EL Intro Soc
+EL Mod W Hist,Social Science,1,Civics=Psychology+Psychology Honors+AP Gov & Pol+EL Civics
+EL Intro Soc,Social Science,1,Debate=Black and Latinx Studies=Asian American Studies=Law=Psychology=World Religions=Sociology=World War II=US Hist 2+Psychology AP=Eur His AP=AP Gov & Pol=Black and Latinx Studies Hon=Asian American Studies Hon=MacroEcon AP=Law Honors=Psychology Honors=World Religions Honors=Sociology Honors=World War II Honors+Intr Debate=EL Intro Soc
+US History,Social Science,1,Debate=Black and Latinx Studies=Asian American Studies=Law=Psychology=World Religions=Sociology=World War II=US Hist 2+Psychology AP=Eur His AP=AP Gov & Pol=Black and Latinx Studies Hon=Asian American Studies Hon=MacroEcon AP=Law Honors=Psychology Honors=World Religions Honors=Sociology Honors=World War II Honors+Intr Debate=EL Intro Soc
+Modern World History,Social Science,1,Civics+Psychology+Psychology Honors+AP Gov & Pol
+Black and Latinx Studies,Social Science,1,Debate=Asian American Studies=Law=Psychology=World Religions=Sociology=World War II=US Hist 2+Psychology AP=Eur His AP=AP Gov & Pol=Asian American Studies Hon=MacroEcon AP=Law Honors=Psychology Honors=World Religions Honors=Sociology Honors=World War II Honors+Intr Debate=EL Intro Soc
+Asian American Studies,Social Science,1,Debate=Black and Latinx Studies=Law=Psychology=World Religions=Sociology=World War II=US Hist 2+Psychology AP=Eur His AP=AP Gov & Pol=Black and Latinx Studies Hon=MacroEcon AP=Law Honors=Psychology Honors=World Religions Honors=Sociology Honors=World War II Honors+Intr Debate=EL Intro Soc
+Black and Latinx Studies Hon,Social Science,1,Advanced Debate=Physchology AP=Eur His AP=AP Gov & Pol=Asian American Studies Hon=MacroEcon AP=Law Honors=Psychology Honors=World Religions Honors=Sociology Honors=World War II Honors+Debate=Asian American Studies=Law=Psychology=World Religions=Sociology=World War II=US Hist 2+Intr Debate=EL Intro Soc
+Asian American Studies Hon,Social Science,1,Advanced Debate=Physchology AP=Eur His AP=AP Gov & Pol=Black and Latinx Studies Hon=MacroEcon AP=Law Honors=Psychology Honors=World Religions Honors=Sociology Honors=World War II Honors+Debate=Black and Latinx Studies=Law=Psychology=World Religions=Sociology=World War II=US Hist 2+Intr Debate=EL Intro Soc
+Civics,Social Science,1,US HIST=US History=ALCUSH USH+ALCUSH USH Honors=US Hist Hon+US Hist AP+EL USH
+Intr Debate,Social Science,1,Debate=Black and Latinx Studies=Asian American Studies=Law=Psychology=World Religions=Sociology=World War II=US Hist 2+Psychology AP=Eur His AP=AP Gov & Pol=Black and Latinx Studies Hon=Asian American Studies Hon=MacroEcon AP=Law Honors=Psychology Honors=World Religions Honors=Sociology Honors=World War II Honors=EL Intro Soc
+MacroEcon AP,Social Science,3,Advanced Debate=Physchology AP=Eur His AP=AP Gov & Pol=Black and Latinx Studies Hon=Asian American Studies Hon=Law Honors=Psychology Honors=World Religions Honors=Sociology Honors=World War II Honors+Debate=Black and Latinx Studies=Asian American Studies=Law=Psychology=World Religions=Sociology=World War II=US Hist 2+Intr Debate=EL Intro Soc
+Law,Social Science,1,Debate=Black and Latinx Studies=Asian American Studies=Psychology=World Religions=Sociology=World War II=US Hist 2+Psychology AP=Eur His AP=AP Gov & Pol=Black and Latinx Studies Hon=Asian American Studies Hon=MacroEcon AP=Law Honors=Psychology Honors=World Religions Honors=Sociology Honors=World War II Honors+Intr Debate=EL Intro Soc
+Law Honors,Social Science,2,Advanced Debate=Physchology AP=Eur His AP=AP Gov & Pol=Black and Latinx Studies Hon=Asian American Studies Hon=MacroEcon AP=Psychology Honors=World Religions Honors=Sociology Honors=World War II Honors+Debate=Black and Latinx Studies=Asian American Studies=Psychology=World Religions=Sociology=World War II=US Hist 2+Intr Debate=EL Intro Soc
+Psychology,Social Science,1,US HIST=US History=ALCUSH USH+ALCUSH USH Honors=US Hist Hon+US Hist AP+EL USH
+Psychology Honors,Social Science,2,ALCUSH USH Honors=US Hist Hon+US Hist AP+US HIST=US History=ALCUSH USH+EL USH
+World Religions,Social Science,1,Debate=Black and Latinx Studies=Asian American Studies=Law=Psychology=Sociology=World War II=US Hist 2+Psychology AP=Eur His AP=AP Gov & Pol=Black and Latinx Studies Hon=Asian American Studies Hon=MacroEcon AP=Law Honors=Psychology Honors=World Religions Honors=Sociology Honors=World War II Honors+Intr Debate=EL Intro Soc
+World Religions Honors,Social Science,2,Advanced Debate=Physchology AP=Eur His AP=AP Gov & Pol=Black and Latinx Studies Hon=Asian American Studies Hon=MacroEcon AP=Law Honors=Psychology Honors=Sociology Honors=World War II Honors+Debate=Black and Latinx Studies=Asian American Studies=Law=Psychology=Sociology=World War II=US Hist 2+Intr Debate=EL Intro Soc
+Sociology,Social Science,1,Debate=Black and Latinx Studies=Asian American Studies=Law=Psychology=World Religions=World War II=US Hist 2+Psychology AP=Eur His AP=AP Gov & Pol=Black and Latinx Studies Hon=Asian American Studies Hon=MacroEcon AP=Law Honors=Psychology Honors=World Religions Honors=Sociology Honors=World War II Honors+Intr Debate=EL Intro Soc
+Sociology Honors,Social Science,2,Advanced Debate=Physchology AP=Eur His AP=AP Gov & Pol=Black and Latinx Studies Hon=Asian American Studies Hon=MacroEcon AP=Law Honors=Psychology Honors=World Religions Honors=World War II Honors+Debate=Black and Latinx Studies=Asian American Studies=Law=Psychology=World Religions=World War II=US Hist 2+Intr Debate=EL Intro Soc
+World War II,Social Science,1,Debate=Black and Latinx Studies=Asian American Studies=Law=Psychology=World Religions=Sociology=US Hist 2+Psychology AP=Eur His AP=AP Gov & Pol=Black and Latinx Studies Hon=Asian American Studies Hon=MacroEcon AP=Law Honors=Psychology Honors=World Religions Honors=Sociology Honors=World War II Honors+Intr Debate=EL Intro Soc
+World War ll Honors,Social Science,2,Advanced Debate=Physchology AP=Eur His AP=AP Gov & Pol=Black and Latinx Studies Hon=Asian American Studies Hon=MacroEcon AP=Law Honors=Psychology Honors=World Religions Honors=Sociology Honors+Debate=Black and Latinx Studies=Asian American Studies=Law=Psychology=World Religions=Sociology=US Hist 2+Intr Debate=EL Intro Soc
+EL Civics,Social Science,1,EL USH+US HIST=US History=ALCUSH USH+ALCUSH USH Honors=US Hist Hon+US Hist AP
+Civics,Social Science,1,US HIST=US History=ALCUSH USH+ALCUSH USH Honors=US Hist Hon+US Hist AP+EL USH
+Law,Social Science,1,Debate=Black and Latinx Studies=Asian American Studies=Psychology=World Religions=Sociology=World War II=US Hist 2+Psychology AP=Eur His AP=AP Gov & Pol=Black and Latinx Studies Hon=Asian American Studies Hon=MacroEcon AP=Law Honors=Psychology Honors=World Religions Honors=Sociology Honors=World War II Honors+Intr Debate=EL Intro Soc
+Modern World History,Social Science,1,Civics+Psychology+Psychology Honors+AP Gov & Pol
+Civics,Social Science,1,US HIST=US History=ALCUSH USH+ALCUSH USH Honors=US Hist Hon+US Hist AP+EL USH
+US Hist 2,Social Science,1,Debate=Black and Latinx Studies=Asian American Studies=Law=Psychology=World Religions=Sociology=World War II+Psychology AP=Eur His AP=AP Gov & Pol=Black and Latinx Studies Hon=Asian American Studies Hon=MacroEcon AP=Law Honors=Psychology Honors=World Religions Honors=Sociology Honors=World War II Honors+Intr Debate=EL Intro Soc
+Sociology,Social Science,1,Debate=Black and Latinx Studies=Asian American Studies=Law=Psychology=World Religions=World War II=US Hist 2+Psychology AP=Eur His AP=AP Gov & Pol=Black and Latinx Studies Hon=Asian American Studies Hon=MacroEcon AP=Law Honors=Psychology Honors=World Religions Honors=Sociology Honors=World War II Honors+Intr Debate=EL Intro Soc
